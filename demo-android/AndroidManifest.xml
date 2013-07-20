@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.gujavasc.demoandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.gujavasc.demoandroid.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.Parametros"
+            android:label="@string/title_activity_slave" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.FrameLayout"
+            android:label="@string/title_activity_absolute_layout" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.LinearLayout"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.RelativeLayout"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.ListView"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.GridVieww"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.WebVieww"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name="org.gujavasc.demoandroid.Conceitos"
+            android:label="@string/title_activity_conceitos" >
+        </activity>
+    </application>
+
+</manifest>
